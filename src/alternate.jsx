@@ -1,4 +1,4 @@
-import h from '@start/h'
+import h from 'h'
 import render from './render'
 
 export default () =>

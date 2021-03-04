@@ -1,4 +1,4 @@
-import * as f from '@start/f'
+import * as f from 'f'
 import alternate from './alternate'
 import author from './author'
 import base from './base'

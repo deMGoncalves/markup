@@ -1,5 +1,5 @@
-import h from '@start/h'
-import * as f from '@start/f'
+import h from 'h'
+import * as f from 'f'
 import render from './render'
 
 export default (schema) =>

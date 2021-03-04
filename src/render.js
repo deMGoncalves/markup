@@ -1,3 +1,3 @@
-import { render } from '@start/h'
+import { render } from 'h'
 
 export default render(document.head)

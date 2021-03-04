@@ -1,2 +1,2 @@
 # markup
-Uma biblioteca para fazer meta tags
+Uma biblioteca para fazer meta data

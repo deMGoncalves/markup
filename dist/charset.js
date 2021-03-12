@@ -1,4 +1,4 @@
 import h from 'h';
 import * as f from 'f';
 import render from "./render";
-export default (schema) => render(h("meta", { charset: f.or(schema.charset, 'UTF-8') }));
+export default (page) => render(h("meta", { charset: f.or(page.charset, 'UTF-8') }));

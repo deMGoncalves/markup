@@ -3,4 +3,4 @@ import * as f from 'f'
 import render from './render'
 
 export default (schema) =>
-  render(<meta name='theme-color' content={f.or(schema.themeColor, '#E55747')} />)
+  render(<meta name='theme-color' content={f.or(schema.themeColor, '')} />)

@@ -1,5 +1,6 @@
 import * as f from 'f';
 import hook from 'hook';
+import adSense from '/adSense';
 import alternate from "./alternate";
 import author from "./author";
 import base from "./base";
@@ -10,4 +11,4 @@ import icon from "./icon";
 import robots from "./robots";
 import themeColor from "./themeColor";
 import title from "./title";
-export default hook(f.idle(f.chain(alternate, author, base, canonical, charset, description, icon, robots, themeColor, title)));
+export default hook(f.idle(f.chain(adSense, alternate, author, base, canonical, charset, description, icon, robots, themeColor, title)));

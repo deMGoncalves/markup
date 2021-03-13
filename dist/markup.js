@@ -1,6 +1,6 @@
 import * as f from 'f';
 import hook from 'hook';
-import adSense from '/adSense';
+import adSense from "./adSense";
 import alternate from "./alternate";
 import author from "./author";
 import base from "./base";

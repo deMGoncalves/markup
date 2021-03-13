@@ -1,6 +1,7 @@
 import h from 'h'
 import * as f from 'f'
 import render from './render'
+import settings from './settings'
 
 export default (page) =>
-  render(<meta name='theme-color' content={f.or(page.themeColor, '')} />)
+  render(<meta name='theme-color' content={f.or(page.themeColor, settings.themeColor, '')} />)

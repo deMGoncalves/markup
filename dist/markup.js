@@ -10,4 +10,4 @@ import icon from "./icon";
 import robots from "./robots";
 import themeColor from "./themeColor";
 import title from "./title";
-export default hook(f.idle(f.chain(alternate, author, base, canonical, charset, description, icon, robots, themeColor, title)));
+export default hook(f.chain(alternate, author, base, canonical, charset, description, icon, robots, themeColor, title));
